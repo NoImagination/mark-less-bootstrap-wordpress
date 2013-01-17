@@ -1,0 +1,25 @@
+/* IMPORT */
+@import "reset.css";
+
+/* BASICS */
+body {
+	color: #252525;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+}
+
+.dont-print,
+header,
+.header,
+nav,
+.nav,
+aside,
+.aside,
+footer,
+.footer,
+.modal {
+	display: none;
+}
+
+/* START */

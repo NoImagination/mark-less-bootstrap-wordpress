@@ -1,0 +1,195 @@
+// BASICS
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	.sans-serif;
+	background-color: white;
+	color: @black-8;
+	font-size: 14px;
+}
+
+a {
+	.transitions-color;
+	text-decoration: none;
+	&:link {
+		color: @link-1;
+	}
+	&:visited {
+		color: @link-4;
+	}
+	&:focus {
+		outline: @link-1 1px dashed;
+	}
+	&:focus, &:hover {
+		color: @link-2;
+	}
+	&:active, &.active {
+		color: @link-3;
+	}
+}
+
+del {
+	text-decoration: line-through;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+code, kbd, pre, samp {
+	font-family: monospace;
+}
+
+sub, sup {
+	font-size: 0.7em;
+	line-height: 0;
+	position: relative;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+mark,
+::selection {
+	background: @link-1 !important;
+	color: white !important;
+	text-shadow: @link-3 0 1px 0 !important;
+}
+
+object, embed {
+	outline: 0;
+}
+
+img {
+	height: auto;
+	border: 0;
+	display: block;
+}
+
+.ie7 img {
+	-ms-interpolation-mode: bicubic;
+}
+
+label,
+input[type="button"],
+input[type="submit"],
+button {
+	cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	vertical-align: top;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+input[type="color"],
+input[type="time"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="url"] {
+	.input;
+	.transitions-color;
+	height: 18px; width: 166px;
+	&.tiny {
+		width: 46px;
+	}
+	&.small {
+		width: 126px;
+	}
+	&.medium {
+		width: 206px;
+	}
+	&.big {
+		width: 286px;
+	}
+	&.large {
+		width: 366px;
+	}
+	&.huge {
+		width: 446px;
+	}
+}
+
+input[type="search"],
+select {
+	.input;
+	.transitions-color;
+	height: 32px; width: 180px;
+	&.tiny {
+		width: 60px;
+	}
+	&.small {
+		width: 140px;
+	}
+	&.medium {
+		width: 220px;
+	}
+	&.big {
+		width: 300px;
+	}
+	&.large {
+		width: 380px;
+	}
+	&.huge {
+		width: 460px;
+	}
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin: 0;
+}
+
+select {
+	.input;
+	font-size: 0.9em;
+}
+
+textarea {
+	.input;
+	.transitions-color;
+	min-height: 98px; width: 166px;
+	line-height: 1.4em;
+	overflow: hidden;
+	resize: none;
+	&.tiny {
+		width: 46px;
+	}
+	&.small {
+		width: 126px;
+	}
+	&.medium {
+		width: 206px;
+	}
+	&.big {
+		width: 286px;
+	}
+	&.large {
+		width: 366px;
+	}
+	&.huge {
+		width: 446px;
+	}
+}

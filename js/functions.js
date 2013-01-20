@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$('input[type="text"].cep').mask('99999-999');
 	$('input[type="text"].cnpj').mask('99.999.999/9999-99');
 	$('input[type="text"].cpf').mask('999.999.999-99');
-	$('input[type="text"].date').mask('99/99/999');
+	$('input[type="text"].date').mask('99/99/9999');
 	$('input[type="text"].telefone').mask('(99) 99999999?9');
 
 	// Reset Default Value
